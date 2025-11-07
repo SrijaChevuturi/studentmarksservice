@@ -20,7 +20,7 @@ public class StudentMarkServiceController {
         return new ResponseEntity<>(student, HttpStatus.CREATED);
     }
 
-    @GetMapping("finadAll")
+    @GetMapping("findAll")
     public ResponseEntity<List<Student>> findAllStudents() {
         List<Student> studentList = studentMarkService.findAllStudents();
         return new ResponseEntity<>(studentList, HttpStatus.OK);
