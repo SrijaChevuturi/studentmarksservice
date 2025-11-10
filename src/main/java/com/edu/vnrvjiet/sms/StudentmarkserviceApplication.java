@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StudentmarkserviceApplication {
 
 	public static void main(String[] args) {
+        //sample
 		SpringApplication.run(StudentmarkserviceApplication.class, args);
         System.out.println("Tomcat running for Student Mark Microservice...");
 	}
