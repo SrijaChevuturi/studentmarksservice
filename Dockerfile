@@ -23,4 +23,4 @@ EXPOSE 8100
 
 # Command to run the application with all dependencies on the classpath
 #CMD ["java", "-cp", "studentmarkservice.jar:dependency/*", "edu.vnrvjiet.sms.StudentMarkService"]
-ENTRYPOINT ["java", "-jar", "studentmarkservice.jar"]
+ENTRYPOINT ["java", "-jar", "studentmarkservice.jar", "--server.port=8100"]
